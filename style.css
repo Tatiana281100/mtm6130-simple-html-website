@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+}
+
+h2, h1 {
+    font-family: 'Metal Mania', cursive;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+}
+
+.im1, .im2, .im3, .im4, .im5{
+    width: auto;
+    height: 150px;
+    object-fit: contain;
+}
+
+body{
+    padding-left: 8px;
+    color: rgb(185, 185, 185);
+}
+
+.rock{
+    margin-top: 20px;
+}
+
+input, textarea{
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 96%;
+}
+
+input[type="submit"]{
+    width: 240px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('images/background2.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a{
+    color: rgb(221, 184, 207);
+}
+
+.rock{
+    width: 800px;
+}
